@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Quiz Zone</title>
+    <link rel="icon" href="https://i.ibb.co/sb8N2bt/Quiz-Zone-Logo-Tile-192.png" type="image/png">
+    <script src="https://kit.fontawesome.com/15f8b2b9b3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="arrbtn.css">
+    <link rel="stylesheet" href="header.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #D8D8D8;
+        }
+        
+        #footer a, .arrow-btn a{
+            transition: all 0.3s ease;
+            padding: 8px; 
+            text-decoration: none;
+        }
+
+        #footer a:hover{
+            color: cyan;
+            padding-left: 15px;
+        }
+
+        nav .logo{
+            padding: 30px;
+            font-size: 30px;
+            color: white;
+        }
+
+        nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: #303036;
+            width: 100%;
+            height: 70px;
+            align-items: center;
+        }
+
+        nav ul{
+            color: white;
+            text-decoration: none;
+            padding-right: 6px;
+            padding-bottom: 40px;
+        }
+
+        nav li:hover{
+            color: cyan;
+        }
+
+        nav ul li{
+            color: white;
+            list-style: none;
+            padding-top: 45px;
+            padding-right: 30px;
+            float: left;
+            position: relative;
+        }
+
+        nav ul li:hover{
+            box-shadow: 0px 0.5px cyan;      
+        }
+
+        #footer{
+            background: #303036;
+            color: #d3d3d3;
+            height: 400px;
+            width: 100%;
+            position: relative;
+        }
+
+        #footer-content{
+            height: 350px;
+           display: flex;
+           flex-wrap: wrap;
+            justify-content: left;
+        }
+
+        #footer-content ul li a{
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 300;
+            color: #bbbbbb;
+            transition: all 0.3s ease;
+        }
+
+        #footer-content ul li a:hover{
+         padding-left: 15px;
+        }
+
+        #footer-bottom{
+            background: #343A40;
+            color: #686868;
+            height: 40px;
+            width: 100%;
+            text-align: center;
+            position:absolute;
+            bottom: 0px;
+            left: 0px;
+            padding-top: 15px;
+        }
+
+        h1{
+            align-items: center;
+            background-color: #00A7F4;
+            margin-left: 600px;
+            margin-right: 700px;
+            height: 40px;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 50px;
+            color: white;
+            width: 300px;
+            text-transform: uppercase;
+            font-weight: 900;
+        }
+
+        #rating-heading{
+            align-items: center;
+            background-color: #00A7F4;
+            margin-left: 600px;
+            margin-right: 700px;
+            height: 40px;
+            text-align: center;
+            padding-left: 5px;
+            padding-top: 20px;
+            padding-bottom: 70px;
+            padding-right: 5px;
+            color: white;
+            width: 300px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        iframe{
+        max-width: 100%;
+        margin-left: 30px;
+        margin-right: 0px;
+        overflow: hidden;
+        }
+
+        strong{
+            font-size: 40px;
+        }
+
+        .image{
+        flex-basis: 40%
+      }
+
+      /* .image :hover{
+            transition: transform .5s ease;
+            transform: scale(0.8);
+        }  */
+
+      .text-headers{
+          font-size: 25px;
+          padding-left: 5px;
+      }
+
+      .text{
+        font-size: 20px;
+        padding-left: 40px;
+        padding-right: 80px;
+      }
+
+      .container{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+      }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo"><a href="home.html"><img src="https://i.ibb.co/wsXq91z/Quiz-Zone-logo-white.png" alt="Quiz-Zone-logo-white" border="0"></a></div>
+            <ul>
+                <a href="home.html"><li>Home</li></a>
+                <a href="signin.html"><li>Sign In</li></a>
+                <a href="#"><li>Online Tests</li></a>
+                <a href="studenttests.html"><li>Test Details</li></a>
+                <a href="About Us.html" target="_blank"><li>About Us</li></a>
+                <a href="Contact Us.html" target="_blank"><li>Contact Us</li></a>
+                <a href="#footer"><li>Help & Support</li></a>
+            </ul>
+    </nav>
+</head><br>
+<body>
+    <br><br>
+    <div><b><h1> Welcome to Quiz Zone </b></h1> </div>
+    <br><br><br><br><br><br>
+
+    <div class= "container">
+        <div id="img" class="image"><iframe src="https://lottiefiles.com/iframe/15203-kid-on-laptop" width = "350px" height= "325px"scrolling="no"></iframe></div>
+
+        <div id="text" class="text"> 
+        <strong>Designed for all Educational Institutions</strong>
+        <p id = "txt1" style="text-align: right;">
+        Are you from college? or a primary school? No worries. <br>Quiz zone was designed keeping educational institutions in mind. <br>It features a easy to use interface that is suitable for all classes. <br>Nothing comes in between you and your education.
+        </p>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br>
+    <div class= "container">
+        <div id="text" class="text">
+        <strong>Get results of your Quiz with no wait</strong>
+        <p id="txt1" style="text-align: left">
+        &nbsp;&nbsp;&nbsp; Once your complete your quiz, you can get a review of your score <br>&nbsp;&nbsp;&nbsp;&nbsp;and how you compared in the quiz compared to your classmates. <br>&nbsp;&nbsp;&nbsp;&nbsp;Get comprehensive and detailed answers of your quiz so you <br>&nbsp;&nbsp;&nbsp;&nbsp;can review your preparation and do better in each test.
+        </p>
+        </div>
+        <div id="img" class="image"><iframe src="https://lottiefiles.com/iframe/10124-checklist" width="325px" height="300px" style="margin-left: 200px;"></iframe></div>
+    </div>
+
+    <br><br><br><br><br><br>
+    <div class= "container">
+        <div id="img" class="image"><iframe src="https://lottiefiles.com/iframe/41703-cloud-server" width = "325px" height= "300px" style="margin-right: 600px"></iframe></div>
+        <div id="text" class="text"> 
+            <strong>Guarenteed to have Zero issues</strong>
+            <p id = "txt1" style="text-align: right;">
+            Unlike other quiz web applications, We guarentee you to have no <br> issues while undertaking your applications. We have web servers all <br>over India, ensuring zero crashes  and technical problems during <br>online session.  In the unlikely scenario that you face technical issues,  <br>our 24/7 customer care is to your rescue.
+            </p>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br>
+    
+    <div class= "container">
+        <div id="text" class="text">
+            <strong>Your Privacy is our First Priority</strong>
+            <p id="txt1" style="text-align: left">
+           &nbsp;&nbsp;&nbsp; Our databases are scanned daily to track any suspecious behavior.<br>&nbsp;&nbsp;&nbsp; With 2 factor authentication (2FA) on by default, you can be assured <br>&nbsp;&nbsp;&nbsp; that you're account is safe and hard to break into. If your account is <br>&nbsp;&nbsp;&nbsp; Temporarily locked due to a hacking attempt, contact us at <br>&nbsp;&nbsp;&nbsp; the relevant sections at the navigation section or page footer.<br>
+            </p>
+        </div>
+        <div id="img" class="image"><iframe src="https://lottiefiles.com/iframe/57770-security" width="300px" height="300px" style="margin-left: 200px;" scrolling="no"></iframe>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br>
+
+    <div class="text" id="rating-heading"><strong> Reviews and Ratings</strong></div>
+    <br><br><br>
+        <div class="text" id="text"><h3 style="text-align: left; margin-left: 530px;">Rated 5 Stars by The Times Of India</h3></div>
+        <br>
+        <div id="img" class="image"><iframe src="https://lottiefiles.com/iframe/63493-five-stars" width="425px" height="125px" style="margin-left: 530px" scrolling="no"></iframe> </div>
+        
+        <br><br><br><br><br>
+
+        <div class="text" id="text"><h3 style="text-align: left; margin-left:530px"> Editor's Choice Award from Medium</h3></div>
+        <br>
+        <div id="img" class="image"><iframe src="https://lottiefiles.com/iframe/558-rewards-icon" width="200px" height="200px" style="margin-left: 645px" scrolling="no"></iframe></div>
+        
+        <br><br><br>
+
+  <div id="footer">
+    <div id="footer-content">
+    <div class="footer-section about"><h2 style="padding-inline-start: 100px; line-height: 60px;">Our Services</h2>
+        <ul style="list-style-type: disc; list-style-position: inside; padding-inline-start: 100px; line-height: 35px;">
+            <li><a href="#">Exclusive Test</a></li>
+            <li><a href="#">Test Categories</a></li>
+            <li><a href="#">Private Tests</a></li>
+            <li><a href="#">Group Tests</a></li>
+            <li><a href="Contact Us.html" target="_blank">Contact Us</a></li>
+            <li><a href="privacypolicy.html" target="_blank">Terms & Conditions</a></li>
+            <li><a href="signup.html">Login/Create Account</a></li>
+            <li><a href="#">Get Verification Mail</a></li>
+        </ul>
+    </div>
+    <div class="footer-section social links"><h2 style="padding-inline-start: 100px; line-height: 60px;">Keep Connected</h2>
+        <ul style="list-style-type: disc; list-style-position: inside; padding-inline-start: 100px; line-height: 35px;">
+            <li><a href="#" class="fa fa-facebook"> Like us on Facebbok</a></li>
+            <li><a href="#" class="fa fa-twitter"> Follow us on Twitter</a></li>
+            <li><a href="#" class="fa fa-instagram"> Follow us on Instagram</a></li>
+            <li><a href="#" class="fa fa-linkedin"> Follow us on Linkedin</a></li>
+            <li><a href="#" class="fa fa-youtube"> Follow us on YouTube</a></li>
+            </ul>
+    </div>
+    <div class="footer-section support"><h2 style="padding-inline-start: 150px; line-height: 60px;">Support</h2>
+    <p style="padding-inline-start: 150px; line-height: 30px; color: #bbbbbb;">If  you have any questions or you need our help,</p><p style="padding-inline-start: 150px; line-height: 10px; color: #bbbbbb;">you can contact us through our</p>
+    <p style="padding-inline-start: 150px; line-height: 70px;"><a href="#"><input type="button" value="SUPPORT SITE" style="background-color: #303036; border: 1; border-color: white; color: white; line-height: 30px; text-align: center;"></a></p>
+    </div>
+    <div class="footer-section quick link"><h2 style="padding-inline-start: 150px; line-height: 60px;">Quick links</h2>
+    <ul style="list-style-type: disc; list-style-position: inside; padding-inline-start: 150px; line-height: 35px;">
+       <li><a href="#">FAQ</a></li>
+    </ul>
+    </div>
+    </div>
+    <div id="footer-bottom">
+        Copyright © 2021 Quiz Zone All Rights Reserved &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="privacypolicy.html" target="_blank"><input type="button" value="Terms & Privacy" style="border: 0; color: #686868; background-color: #343A40;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powered by HVTech Solutions
+    </div>
+    </div>
+<div class="arrow-btn">
+<a href="#" class="fas fa-upload"></a>
+</div>
+</body>
+</html>
