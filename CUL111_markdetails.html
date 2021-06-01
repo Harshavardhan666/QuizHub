@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>Mark_Details | Quiz Zone</title>
+<meta charset="UTF-8">
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #D8D8D8;
+        }
+
+        nav .logo{
+            padding: 30px;
+            font-size: 30px;
+            color: white;
+        }
+
+        nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: #303036;
+            width: 100%;
+            height: 70px;
+            align-items: center;
+        }
+
+        nav ul{
+            color: white;
+            text-decoration: none;
+            padding-right: 6px;
+            padding-bottom: 40px;
+        }
+
+        nav li:hover{
+            color: cyan;
+        }
+
+        nav ul li{
+            color: white;
+            list-style: none;
+            padding-top: 45px;
+            padding-right: 30px;
+            float: left;
+            position: relative;
+        }
+
+        nav ul li:hover{
+            box-shadow: 0px 0.5px cyan;      
+        }
+
+        .heading{
+            align-items: center;
+            background-color: #00A7F4;
+            margin-top: 10px;
+            margin-left: 580px;
+            margin-right: 700px;
+            height: 80px;
+            text-align: center;
+            padding: 5px;
+            color: white;
+            width: 350px;
+        }
+
+        #footer a, .arrow-btn a{
+            transition: all 0.3s ease;
+            padding: 8px; 
+            text-decoration: none;
+        }
+
+        #footer a:hover{
+            color: cyan;
+            padding-left: 15px;
+        }
+      
+        #footer{
+            background: #303036;
+            color: #d3d3d3;
+            height: 400px;
+            width: 100%;
+            position: relative;
+        }
+
+        #footer-content{
+            height: 350px;
+           display: flex;
+           flex-wrap: wrap;
+            justify-content: left;
+        }
+
+        #footer-content ul li a{
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 300;
+            color: #bbbbbb;
+            transition: all 0.3s ease;
+        }
+
+        #footer-content ul li a:hover{
+         padding-left: 15px;
+        }
+
+        #footer-bottom{
+            background: #343A40;
+            color: #686868;
+            height: 40px;
+            width: 100%;
+            text-align: center;
+            position:absolute;
+            bottom: 0px;
+            left: 0px;
+            padding-top: 15px;
+        }
+
+</style>
+        <link rel="icon" href="https://i.ibb.co/sb8N2bt/Quiz-Zone-Logo-Tile-192.png" type="image/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="button.css">
+        <link rel="stylesheet" href="arrbtn.css">
+        <script src="https://kit.fontawesome.com/15f8b2b9b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo"><a href="home.html"><img src="https://i.ibb.co/wsXq91z/Quiz-Zone-logo-white.png" alt="Quiz-Zone-logo-white" border="0"></a></div>
+            <ul>
+                <a href="home.html"><li>Home</li></a>
+                <a href="signin.html"><li>Sign In</li></a>
+                <a href="#"><li>Online Tests</li></a>
+                <a href="studenttests.html"><li>Test Details</li></a>
+                <a href="About Us.html" target="_self"><li>About Us</li></a>
+                <a href="Contact Us.html" target="_blank"><li>Contact Us</li></a>
+                <a href="#footer"><li>Help & Support</li></a>
+            </ul>
+    </nav><br><br>
+<div class="heading">
+<h1>Submitted Assessments</h1>
+</div>
+<br/>
+<table border='1' align="center" cellpadding="15" style="margin-top: 100px; margin-left: 10px; margin-right: 80px;">
+<tr>
+<th width="200">Title</th>
+<th width="150"> Date of Examination</th>
+<th width="150">Test-Time Duration</th>
+<th width="150"> Total No. Of Questions</th>
+<th width="150">Negative Marking</th>
+<th width="150">Time of Submission</th>
+<th width="150">Questions Attempted</th>
+<th width="150">Mark Obtained</th>
+</tr>
+<tr>
+    <td align="center">Cutural Exam-p1</td>
+    <td align="center">16th May 2021</td>
+    <td align="center">5:00pm-6:00pm</td>
+    <td align="center">15</td>
+    <td align="center">-1</td>
+    <td align="center"> 5:55pm</td>
+    <td align="center">14</td>
+    <td align="center">27/30</td>
+    </tr>
+    <tr>
+    <td align="center">Cultural-chapter 1,2</td>
+    <td align="center">28th April 2021</td>
+    <td align="center">12:00pm-12:50pm</td>
+    <td align="center">10</td>
+    <td align="center">-1</td>
+    <td align="center"> 12:48pm</td>
+    <td align="center">10</td>
+    <td align="center">20/20</td>
+    </tr>
+    <tr>
+    <td align="center">Cultural-chapter 1</td>
+    <td align="center">25th March 2021</td>
+    <td align="center">5:00pm-6:00pm</td>
+    <td align="center">15</td>
+    <td align="center">-1</td>
+    <td align="center"> 5:50pm</td>
+    <td align="center">12</td>
+    <td align="center">21/30</td>
+    </tr>
+</table>
+<br><br><br><br><br><br><br><br><br>
+<div id="footer">
+    <div id="footer-content">
+    <div class="footer-section about"><h2 style="padding-inline-start: 100px;">Our Services</h2>
+        <ul style="list-style-type: disc; list-style-position: inside; padding-inline-start: 100px; line-height: 35px;">
+            <li><a href="#">Exclusive Test</a></li>
+            <li><a href="#">Test Categories</a></li>
+            <li><a href="#">Private Tests</a></li>
+            <li><a href="#">Group Tests</a></li>
+            <li><a href="Contact Us.html" target="_blank">Contact Us</a></li>
+            <li><a href="privacypolicy.html" target="_blank">Terms & Conditions</a></li>
+            <li><a href="signup.html">Login/Create Account</a></li>
+            <li><a href="#">Get Verification Mail</a></li>
+        </ul>
+    </div>
+    <div class="footer-section social links"><h2 style="padding-inline-start: 100px;">Keep Connected</h2>
+        <ul style="list-style-type: disc; list-style-position: inside; padding-inline-start: 100px; line-height: 35px;">
+            <li><a href="#" class="fa fa-facebook"> Like us on Facebbok</a></li>
+            <li><a href="#" class="fa fa-twitter"> Follow us on Twitter</a></li>
+            <li><a href="#" class="fa fa-instagram"> Follow us on Instagram</a></li>
+            <li><a href="#" class="fa fa-linkedin"> Follow us on Linkedin</a></li>
+            <li><a href="#" class="fa fa-youtube"> Follow us on YouTube</a></li>
+            </ul>
+    </div>
+    <div class="footer-section support"><h2 style="padding-inline-start: 150px;">Support</h2>
+    <p style="padding-inline-start: 150px; line-height: 35px; color: #bbbbbb;">If  you have any questions or you need our help,</p><p style="padding-inline-start: 150px; line-height: 0px; color: #bbbbbb;">you can contact us through our</p>
+    <p style="padding-inline-start: 150px; line-height: 40px;"><a href="#"><input type="button" value="SUPPORT SITE" style="background-color: #303036; border: 1; border-color: white; color: white; line-height: 25px;"></a></p>
+    </div>
+    <div class="footer-section quick link"><h2 style="padding-inline-start: 150px;">Quick links</h2>
+    <ul style="list-style-type: disc; list-style-position: inside; padding-inline-start: 150px; line-height: 35px;">
+       <li><a href="#">FAQ</a></li>
+    </ul>
+    </div>
+    </div>
+    <div id="footer-bottom">
+        Copyright © 2021 Quiz Zone All Rights Reserved &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="privacypolicy.html" target="_blank"><input type="button" value="Terms & Privacy" style="border: 0; color: #686868; background-color: #343A40;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powered by HVTech Solutions
+    </div>
+    </div>
+    <div class="arrow-btn">
+    <a href="#"><span class="fas fa-upload"></span></a>
+    </div>
+</body>
+</html>
